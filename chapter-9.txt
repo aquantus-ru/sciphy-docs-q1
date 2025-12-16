@@ -1,0 +1,40 @@
+CHAPTER 9 -- NUCLEAR SPIN AND ANGULAR MOMENTUM
+
+This chapter introduces quantum properties essential for understanding phenomena like Magnetic Resonance Imaging (MRI).
+
+9.1 INTRINSIC SPIN
+
+Spin is a fundamental, intrinsic form of angular momentum carried by elementary particles. It is not due to physical rotation in space but is an inherent quantum property.
+- Fermions (electrons, protons, neutrons) have half-integer spin (e.g., 1/2).
+- Bosons (photons) have integer spin.
+
+9.2 ANGULAR MOMENTUM QUANTIZATION
+
+In quantum mechanics, angular momentum is quantized. The magnitude of the spin angular momentum vector S is given by:
+|S| = h_bar * sqrt(s * (s + 1))
+where s is the spin quantum number (e.g., 1/2) and h_bar is the reduced Planck constant (h / 2*pi).
+
+The component of spin along a chosen axis (usually z) is also quantized:
+S_z = m_s * h_bar
+where m_s can take values from -s to +s in integer steps.
+For a proton (s=1/2), m_s can be +1/2 ("spin up") or -1/2 ("spin down").
+
+9.3 SPIN QUANTUM NUMBER (I)
+
+For a nucleus, the total angular momentum is the vector sum of the spins and orbital angular momenta of all constituent nucleons. This total nuclear spin is denoted by I.
+- Nuclei with even Z and even N have I = 0 (e.g., ^12C, ^16O). These are "NMR silent."
+- Nuclei with odd mass number A have half-integer spin (e.g., ^1H has I=1/2, ^13C has I=1/2).
+- Nuclei with odd Z and odd N have integer spin (e.g., ^2H has I=1).
+
+The value of I determines the number of possible magnetic states (2I + 1).
+
+9.4 MAGNETIC MOMENT
+
+A particle with spin and charge possesses a magnetic dipole moment (mu). It behaves like a tiny bar magnet.
+mu = gamma * S
+where gamma is the "gyromagnetic ratio," a constant specific to each nucleus.
+For a proton: gamma / 2*pi approx 42.58 MHz/T.
+
+The potential energy of a magnetic moment in an external magnetic field B is:
+E = - mu dot B
+Energy is minimized when the moment aligns with the field. This alignment is the basis for Nuclear Magnetic Resonance.

@@ -1,0 +1,33 @@
+CHAPTER 12 -- WATER, RESONANCE, AND DIELECTRIC RESPONSE
+
+Water is fundamental to biological physics and exhibits unique electromagnetic properties.
+
+12.1 MOLECULAR DIPOLES
+
+A water molecule (H2O) is polar. The oxygen atom is more electronegative than the hydrogen atoms, pulling electron density towards it.
+- This creates a permanent electric dipole moment: a positive charge center near the hydrogens and a negative center near the oxygen.
+- In liquid water, hydrogen bonds form a transient network between molecules.
+
+12.2 ROTATIONAL MODES
+
+Molecules can rotate. In the gas phase, these rotations are quantized. In the liquid phase, rotation is hindered by collisions and hydrogen bonding.
+- The dipole moment allows the molecule to interact strongly with oscillating electric fields (like microwaves).
+- The field exerts a torque, causing the molecule to rotate.
+
+12.3 DIELECTRIC LOSS
+
+When a dielectric material (like water) is placed in an alternating electric field, the dipoles attempt to align with the field.
+- At low frequencies, dipoles align easily.
+- At very high frequencies (optical), they cannot keep up.
+- At microwave frequencies (e.g., 2.45 GHz), the rotation lags behind the field due to friction/viscosity.
+- This lag (phase difference) creates "Dielectric Loss." Energy from the field is dissipated as heat (molecular kinetic energy). This is the principle of microwave ovens.
+
+12.4 FREQUENCY-DEPENDENT ABSORPTION
+
+The complex permittivity epsilon describes the material's response:
+epsilon = epsilon' - i * epsilon''
+- epsilon' (real part) represents energy storage (polarization).
+- epsilon'' (imaginary part) represents energy loss (absorption).
+
+The absorption peaks at the relaxation frequency of the water molecules (approx 20 GHz at room temperature), but is significant over a broad range including the GHz band.
+This strong absorption by water is why radar and communications signals at certain frequencies are heavily attenuated by rain.

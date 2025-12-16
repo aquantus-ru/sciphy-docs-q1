@@ -1,0 +1,59 @@
+CHAPTER 7 -- MATTER, ATOMS, AND ISOTOPES
+
+This chapter transitions from the macroscopic classical world to the microscopic structure of matter.
+
+7.1 ATOMIC STRUCTURE
+
+Matter is composed of atoms. An atom consists of a dense, positively charged nucleus surrounded by a cloud of negatively charged electrons.
+- The size of an atom is roughly 1 Angstrom (10^-10 m).
+- The nucleus is much smaller, roughly 1 femtometer (10^-15 m), yet contains over 99.9% of the mass.
+
+Bohr Model (Historical):
+Proposed electrons orbit the nucleus in discrete energy levels. While superseded by quantum mechanics (electron clouds/orbitals), it provides a useful heuristic for energy levels.
+
+7.2 PROTONS, NEUTRONS, ELECTRONS
+
+The three primary subatomic particles are:
+1. Proton (p):
+   - Charge: +e (+1.602 x 10^-19 C)
+   - Mass: approx 1.673 x 10^-27 kg (approx 1836 times electron mass).
+   - Located in the nucleus.
+2. Neutron (n):
+   - Charge: 0 (neutral)
+   - Mass: approx 1.675 x 10^-27 kg (slightly heavier than proton).
+   - Located in the nucleus.
+3. Electron (e-):
+   - Charge: -e (-1.602 x 10^-19 C)
+   - Mass: approx 9.11 x 10^-31 kg.
+   - Located in orbitals around the nucleus.
+
+Atomic Number (Z): Number of protons. Determines the element identity.
+Mass Number (A): Total number of protons and neutrons (nucleons). A = Z + N.
+
+7.3 ISOTOPES
+
+Isotopes are variants of a chemical element that have the same number of protons (Z) but a different number of neutrons (N).
+- Because they have the same electron configuration, isotopes behave almost identically chemically.
+- Their physical properties (mass, stability, magnetic spin) differ.
+
+Notation:
+^A_Z X
+Example: Carbon-12 (^12_6 C) has 6 protons, 6 neutrons. Carbon-14 (^14_6 C) has 6 protons, 8 neutrons.
+
+7.4 NUCLEAR BINDING
+
+Protons in the nucleus repel each other electrostatically. The nucleus is held together by the "Strong Nuclear Force," which is attractive and much stronger than the electric force at short ranges (few femtometers).
+
+Binding Energy:
+The energy required to disassemble a nucleus into its constituent protons and neutrons.
+It is the energy equivalent of the "mass defect."
+
+7.5 MASS DEFECT
+
+The mass of a stable nucleus is always *less* than the sum of the masses of its constituent nucleons.
+Delta_m = (Z * m_proton + N * m_neutron) - m_nucleus
+
+This "missing mass" is converted into binding energy according to Einstein's mass-energy equivalence:
+E_binding = Delta_m * c^2
+
+High binding energy per nucleon indicates a stable nucleus. Iron-56 (^56Fe) has one of the highest binding energies per nucleon, making it the most stable configuration. Fusion releases energy for light elements (up to Iron), while fission releases energy for heavy elements (heavier than Iron).

@@ -1,0 +1,28 @@
+CHAPTER 13 -- SCATTERING AND INTERACTION TYPES
+
+When particles or waves encounter matter, they can be scattered or absorbed.
+
+13.1 ELASTIC SCATTERING
+
+In elastic scattering, the kinetic energy of the system is conserved. The incident particle changes direction but does not lose energy to the internal states of the target.
+- Rayleigh Scattering: Scattering of light by particles much smaller than the wavelength (e.g., blue sky caused by air molecules). Scattering intensity is proportional to 1 / lambda^4.
+- Thomson Scattering: Low-energy photon scattering off a free electron.
+
+13.2 INELASTIC SCATTERING
+
+In inelastic scattering, kinetic energy is not conserved. Energy is transferred between the incident particle and the internal energy of the target.
+- Compton Scattering: A photon collides with an electron, transferring energy to it. The scattered photon has a longer wavelength.
+  Delta_lambda = (h / m_e * c) * (1 - cos(theta))
+- Raman Scattering: Scattering of photons by molecules where the photon gains or loses energy corresponding to vibrational/rotational transitions.
+
+13.3 ENERGY TRANSFER MECHANISMS
+
+- Photoelectric Effect: A photon is completely absorbed by an atom, ejecting an electron. Dominant at low photon energies.
+- Pair Production: A high-energy photon (> 1.022 MeV) interacts with a nucleus and converts into an electron-positron pair.
+
+13.4 RADAR REFLECTION VS ABSORPTION
+
+In radar systems:
+- Reflection: Conductive surfaces (metals) reflect EM waves efficiently. The skin depth is small, so the wave essentially bounces off.
+- Absorption: Stealth technology uses materials (Radar Absorbent Material - RAM) that absorb the incoming wave energy (via dielectric or magnetic loss) rather than reflecting it back to the source.
+- Scattering Geometry: Shape also matters. Faceted surfaces deflect waves away from the receiver.

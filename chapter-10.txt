@@ -1,0 +1,39 @@
+CHAPTER 10 -- QUANTUM MECHANICS FUNDAMENTALS
+
+Quantum mechanics describes the physics of the very small, where classical mechanics fails. It introduces probabilism and wave-particle duality.
+
+10.1 QUANTIZATION
+
+Energy and other physical quantities often exist in discrete "packets" or quanta rather than continuous ranges.
+- Planck's Hypothesis: Energy of light is quantized. E = h * f.
+- Bohr Atom: Angular momentum of electrons is quantized. L = n * h_bar.
+
+10.2 WAVEFUNCTIONS
+
+The state of a quantum system is fully described by a wavefunction, Psi(x, t).
+- Psi is a complex-valued function.
+- The Born Rule states that the probability density of finding a particle at position x is given by |Psi(x, t)|^2 = Psi * Psi_conjugate.
+- The total probability of finding the particle somewhere in space must be 1 (Normalization).
+
+10.3 OPERATORS
+
+In quantum mechanics, physical observables (position, momentum, energy) are represented by mathematical operators acting on the wavefunction.
+- Position operator: x_hat = x
+- Momentum operator: p_hat = -i * h_bar * d/dx
+- Energy operator (Hamiltonian): H_hat
+
+10.4 ENERGY EIGENSTATES
+
+The Schrodinger Equation describes how the wavefunction evolves.
+Time-Dependent Schrodinger Equation:
+i * h_bar * dPsi/dt = H_hat * Psi
+
+Time-Independent Schrodinger Equation (for stationary states):
+H_hat * psi(x) = E * psi(x)
+Here, psi(x) is an eigenfunction (eigenstate) of the Hamiltonian, and E is the corresponding eigenvalue (energy level).
+If a system is in an eigenstate, it has a definite energy.
+
+10.5 SELECTION RULES
+
+Transitions between energy levels occur via the absorption or emission of photons. However, not all transitions are allowed. "Selection rules" derived from conservation laws (angular momentum, parity) dictate which transitions are "allowed" (high probability) and which are "forbidden" (low probability).
+Example: In electric dipole transitions, the change in orbital angular momentum quantum number (l) must be Delta_l = +/- 1.

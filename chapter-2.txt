@@ -1,0 +1,72 @@
+CHAPTER 2 -- CLASSICAL MOTION (KINEMATICS)
+
+Kinematics is the branch of mechanics that describes the motion of objects without reference to the forces that cause the motion. It focuses on the geometric aspects of motion: position, velocity, and acceleration.
+
+2.1 POSITION AND DISPLACEMENT
+
+Position:
+The position of a particle is its location relative to a chosen reference point (the origin) in a coordinate system. In one dimension (1D), position is denoted by x(t).
+
+Displacement:
+Displacement is the change in position of an object. It is a vector quantity, pointing from the initial position to the final position.
+Delta_x = x_final - x_initial
+
+Distance vs. Displacement:
+- Distance is a scalar representing the total path length traveled.
+- Displacement depends only on the endpoints.
+For example, if a particle moves from x=0 to x=10 and back to x=0:
+Distance = 20 units
+Displacement = 0 units
+
+2.2 VELOCITY AND ACCELERATION
+
+Velocity:
+Average velocity is the rate of change of displacement over a time interval.
+v_avg = Delta_x / Delta_t
+
+Instantaneous velocity is the limit of average velocity as the time interval approaches zero. It is the derivative of position with respect to time.
+v(t) = dx(t) / dt
+
+Speed is the magnitude of the velocity vector. Average speed is total distance divided by total time.
+
+Acceleration:
+Acceleration is the rate of change of velocity.
+Average acceleration: a_avg = Delta_v / Delta_t
+Instantaneous acceleration: a(t) = dv(t) / dt = d^2x(t) / dt^2
+
+Equations of Motion (Constant Acceleration):
+For an object moving with constant acceleration 'a' (e.g., free fall near Earth's surface), the kinematic equations are:
+1. v = v_0 + a * t
+2. x = x_0 + v_0 * t + 0.5 * a * t^2
+3. v^2 = v_0^2 + 2 * a * (x - x_0)
+4. x - x_0 = 0.5 * (v_0 + v) * t
+
+2.3 REFERENCE FRAMES
+
+Motion is relative. To describe the position or velocity of an object, we must define a "frame of reference"—a coordinate system attached to an observer.
+
+Inertial Reference Frame:
+An inertial frame is one in which Newton's First Law holds true (an object at rest remains at rest, and an object in motion remains in motion at constant velocity, unless acted upon by a net external force).
+- Any frame moving at a constant velocity relative to an inertial frame is also an inertial frame.
+- Accelerating frames (e.g., a rotating carousel) are non-inertial. In non-inertial frames, "fictitious forces" (like centrifugal force) appear to account for the acceleration of the frame itself.
+
+2.4 RELATIVE MOTION
+
+When two observers move relative to each other, they measure different velocities for the same object.
+
+Galilean Transformation (1D):
+Let frame S be fixed, and frame S' move with constant velocity v_rel relative to S.
+If a particle has velocity u in frame S and velocity u' in frame S':
+u = u' + v_rel
+or
+u' = u - v_rel
+
+This simple addition of velocities is valid for speeds much slower than the speed of light (c). As speeds approach c, the Galilean transformation must be replaced by the Lorentz transformation of Special Relativity.
+
+Relative Motion in 2D/3D:
+For vectors:
+v_AC = v_AB + v_BC
+This reads: The velocity of A relative to C is the velocity of A relative to B plus the velocity of B relative to C.
+Example: A boat crossing a river.
+v_boat_ground = v_boat_water + v_water_ground
+The resultant velocity of the boat relative to the ground is the vector sum of its velocity relative to the water and the current's velocity.

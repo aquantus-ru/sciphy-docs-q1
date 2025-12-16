@@ -1,0 +1,37 @@
+CHAPTER 14 -- STATISTICAL & THERMAL PHYSICS
+
+Statistical physics bridges the gap between the microscopic behavior of particles and the macroscopic properties of materials (thermodynamics).
+
+14.1 THERMAL MOTION
+
+At temperatures above absolute zero, atoms and molecules are in constant random motion.
+- Translational Kinetic Energy: For an ideal gas, the average kinetic energy per molecule is:
+  K_avg = (3/2) * k_B * T
+  where k_B is the Boltzmann constant (1.38 x 10^-23 J/K) and T is temperature in Kelvin.
+- Temperature is essentially a measure of this random kinetic energy.
+
+14.2 BOLTZMANN DISTRIBUTIONS
+
+For a system in thermal equilibrium at temperature T, the probability P_i of finding the system in a state with energy E_i is given by the Boltzmann distribution:
+P_i is proportional to e^(-E_i / k_B * T)
+or
+N_i / N_total = (1/Z) * e^(-E_i / k_B * T)
+where Z is the partition function (sum over all states).
+
+This implies that states with lower energy are more populated than states with higher energy.
+
+14.3 RELAXATION TIMES
+
+When a system is perturbed from equilibrium, it takes time to return to the thermal distribution.
+- The "relaxation time" (tau) characterizes this rate.
+- Rate of change is often proportional to the deviation from equilibrium.
+  dX/dt = -(X - X_eq) / tau
+- This concept is central to NMR (T1 relaxation) and dielectric relaxation.
+
+14.4 POPULATION DIFFERENCES
+
+In many two-level systems (like spin states in NMR), the signal strength depends on the population difference between the lower (N+) and upper (N-) levels.
+Ratio: N- / N+ = e^(-Delta_E / k_B * T)
+Since Delta_E is often small (for NMR), the ratio is very close to 1. The "excess" population in the lower state is what generates the net magnetization.
+- At lower temperatures, the population difference increases, leading to stronger signals.
+- At high temperatures, the populations equalize (saturation).

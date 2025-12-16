@@ -1,0 +1,50 @@
+CHAPTER 11 -- MAGNETIC RESONANCE (NMR / MR)
+
+Magnetic Resonance Imaging (MRI) and Nuclear Magnetic Resonance (NMR) spectroscopy exploit the quantum magnetic properties of nuclei, specifically hydrogen (^1H) in water and fat.
+
+11.1 MAGNETIC MOMENT INTERACTION WITH B0 FIELD
+
+When a sample containing spins (like protons) is placed in a strong, static magnetic field B_0 (conventionally along the z-axis), the magnetic moments align either parallel (low energy) or anti-parallel (high energy) to the field.
+This creates a net magnetization vector M_0 pointing along B_0.
+
+11.2 ZEEMAN SPLITTING
+
+In the absence of a magnetic field, the spin states (up and down) are degenerate (have the same energy).
+In the presence of B_0, the energy levels split. This is the Zeeman Effect.
+Delta_E = h_bar * gamma * B_0
+The energy gap is proportional to the field strength.
+
+11.3 LARMOR FREQUENCY
+
+The spins do not just align; they precess (wobble) around the B_0 field axis, much like a spinning top in gravity.
+The frequency of precession is the Larmor Frequency (omega_0):
+omega_0 = gamma * B_0
+or in Hz:
+f_0 = (gamma / 2*pi) * B_0
+
+For protons at 1.5 Tesla:
+f_0 = 42.58 MHz/T * 1.5 T approx 63.87 MHz.
+
+11.4 RF EXCITATION
+
+To measure the magnetization, we must perturb it from equilibrium. We apply a Radio Frequency (RF) pulse (B_1 field) oscillating at the Larmor frequency.
+- This creates a condition of resonance.
+- Energy is transferred to the spins, flipping some from low to high energy states.
+- The net magnetization vector M tips away from the z-axis into the transverse (xy) plane.
+- M precessing in the xy plane induces a voltage in a receiver coil (the MR signal).
+
+11.5 RELAXATION (T1, T2)
+
+After the RF pulse is turned off, the system returns to equilibrium. This process is called relaxation.
+
+T1 Relaxation (Spin-Lattice Relaxation):
+- The recovery of the longitudinal magnetization (M_z) along the z-axis.
+- Energy is transferred from spins to the surrounding lattice (thermal motion).
+- M_z(t) = M_0 * (1 - e^(-t/T1))
+
+T2 Relaxation (Spin-Spin Relaxation):
+- The decay of the transverse magnetization (M_xy).
+- Caused by interactions between spins dephasing each other.
+- M_xy(t) = M_xy(0) * e^(-t/T2)
+
+Different tissues have different T1 and T2 values, providing the contrast in MRI images.

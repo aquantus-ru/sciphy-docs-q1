@@ -1,0 +1,86 @@
+CHAPTER 1 -- FOUNDATIONS OF PHYSICAL DESCRIPTION
+
+1.1 PHYSICAL QUANTITIES
+
+Physics is the study of the fundamental laws of nature, expressed through the language of mathematics. To describe the physical world, we define "physical quantities"—properties or attributes of a phenomenon, body, or substance that can be quantified by measurement.
+
+A physical quantity typically consists of a numerical value and a unit. For example, the mass of an electron is approximately 9.11 x 10^-31 kg. Here, "9.11 x 10^-31" is the numerical magnitude and "kg" is the unit.
+
+Physical quantities are broadly categorized into two types:
+1. Base Quantities: These are fundamental quantities defined by convention and are independent of other quantities. Examples include length, mass, time, electric current, thermodynamic temperature, amount of substance, and luminous intensity.
+2. Derived Quantities: These are defined in terms of the base quantities. For example, velocity is derived from length divided by time (m/s), and force is derived from mass times acceleration (kg * m/s^2).
+
+1.2 UNITS AND DIMENSIONS
+
+To ensure consistency in scientific communication, the International System of Units (SI) is universally adopted. The seven base SI units are:
+- Length: meter (m)
+- Mass: kilogram (kg)
+- Time: second (s)
+- Electric Current: ampere (A)
+- Temperature: kelvin (K)
+- Amount of Substance: mole (mol)
+- Luminous Intensity: candela (cd)
+
+"Dimensions" refer to the physical nature of a quantity. We denote the dimensions of length, mass, and time as [L], [M], and [T], respectively. Analysis of dimensions (Dimensional Analysis) is a powerful tool for verifying equations. For an equation to be physically valid, it must be dimensionally homogeneous.
+
+Example:
+The period T of a pendulum is given by T = 2*pi * sqrt(L/g).
+Dimension of LHS: [T]
+Dimension of RHS: sqrt([L] / ([L][T]^-2)) = sqrt([T]^2) = [T]
+Since both sides have the dimension of time, the equation is dimensionally consistent.
+
+1.3 SCALARS VS VECTORS
+
+Physical quantities are further classified based on whether they possess directionality.
+
+Scalars:
+A scalar quantity is specified completely by a single number (magnitude) with an appropriate unit. It has no direction.
+Examples: Mass, time, temperature, energy, electric charge.
+Scalars obey the ordinary rules of algebra (e.g., 5 kg + 2 kg = 7 kg).
+
+Vectors:
+A vector quantity has both a magnitude and a direction. It obeys the laws of vector addition (the parallelogram law or triangle law).
+Examples: Displacement, velocity, force, momentum, electric field.
+
+Notation:
+Vectors are often denoted by boldface type (v) or with an arrow overhead (vec(v)). The magnitude is written as |v| or simply v.
+
+Vector Decomposition:
+A vector A in 2D space can be resolved into components along the x and y axes:
+A = A_x * i + A_y * j
+where i and j are unit vectors along the x and y axes.
+Magnitude: |A| = sqrt(A_x^2 + A_y^2)
+Direction: theta = arctan(A_y / A_x)
+
+1.4 MEASUREMENT LIMITS AND UNCERTAINTY
+
+No physical measurement is perfectly precise. Every measurement is subject to "uncertainty," which provides a range of values within which the true value is likely to lie.
+
+Accuracy vs. Precision:
+- Accuracy: How close a measurement is to the true or accepted value.
+- Precision: How close repeated measurements of the same quantity are to each other (reproducibility).
+
+Types of Errors:
+1. Systematic Errors: Predictable biases in measurement (e.g., a zero-offset error in a scale). These affect accuracy.
+2. Random Errors: Unpredictable fluctuations in readings (e.g., electronic noise, human reaction time). These affect precision and can be reduced by averaging multiple measurements.
+
+Reporting Uncertainty:
+A result is typically reported as: x_best +/- delta_x
+where x_best is the best estimate (often the mean) and delta_x is the uncertainty.
+
+Significant Figures:
+The number of digits in a reported value indicates the precision of the measurement. When performing calculations:
+- Multiplication/Division: The result should have the same number of significant figures as the term with the fewest significant figures.
+- Addition/Subtraction: The result should have the same number of decimal places as the term with the fewest decimal places.
+
+1.5 MODELS VS REALITY
+
+Physics relies on "models"—simplified representations of complex physical systems. A model abstracts away negligible details to make a problem solvable while retaining the essential physics.
+
+Examples of Idealizations:
+- Point Particle: Treating an object as having mass but zero volume to ignore rotation or internal structure.
+- Ideal Gas: Assuming gas particles do not interact and occupy no volume.
+- Frictionless Surface: Ignoring resistive forces to simplify the study of motion.
+
+Validity of Models:
+A model is only valid within a specific regime. Classical mechanics, for instance, is an excellent model for macroscopic objects moving at slow speeds. However, it fails at atomic scales (requiring Quantum Mechanics) or at speeds approaching the speed of light (requiring Relativistic Mechanics). Understanding the "limits of validity" is crucial for any physicist.

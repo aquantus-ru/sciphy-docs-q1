@@ -1,0 +1,52 @@
+CHAPTER 5 -- OSCILLATIONS AND WAVES
+
+Oscillations describe repetitive motion back and forth around an equilibrium position. Waves describe the propagation of a disturbance through space, often transporting energy without transporting matter.
+
+5.1 HARMONIC OSCILLATORS
+
+Simple Harmonic Motion (SHM) occurs when a restoring force is directly proportional to the displacement from equilibrium and acts in the opposite direction.
+F = -k * x (Hooke's Law)
+By Newton's second law:
+m * d^2x/dt^2 = -k * x
+d^2x/dt^2 + (k/m) * x = 0
+
+The solution is a sinusoidal function:
+x(t) = A * cos(omega * t + phi)
+where:
+- A is Amplitude (maximum displacement).
+- omega is angular frequency (sqrt(k/m)).
+- phi is the phase constant (determined by initial conditions).
+
+5.2 FREQUENCY, WAVELENGTH, PERIOD
+
+Oscillation Parameters:
+- Period (T): Time for one complete cycle. T = 2*pi / omega.
+- Frequency (f): Number of cycles per unit time. f = 1 / T = omega / (2*pi). Unit: Hertz (Hz).
+
+Wave Parameters:
+For a traveling wave (e.g., y(x,t) = A * cos(k_w * x - omega * t)):
+- Wavelength (lambda): The spatial distance between consecutive peaks.
+- Wave Number (k_w): Spatial frequency. k_w = 2*pi / lambda.
+- Wave Speed (v): The speed at which the wave peaks move. v = lambda * f = omega / k_w.
+
+5.3 RESONANCE
+
+Resonance is a phenomenon where a system responds with maximum amplitude to an external driving force at a specific frequency, known as the resonant frequency.
+- Driven Damped Oscillator: When the driving frequency matches the system's natural frequency (omega_0), energy transfer is most efficient.
+- Examples: Pushing a swing, shattering a glass with sound, tuning a radio circuit.
+- If damping is low, the resonance peak is sharp and high. If damping is high, the peak is broad and lower.
+
+5.4 STANDING WAVES
+
+Standing waves are formed by the superposition (interference) of two waves traveling in opposite directions with the same frequency and amplitude. Unlike traveling waves, standing waves do not propagate; they oscillate in place.
+
+Nodes and Antinodes:
+- Nodes: Points of zero amplitude (destructive interference).
+- Antinodes: Points of maximum amplitude (constructive interference).
+
+Boundary Conditions:
+- String fixed at both ends: Length L must be an integer multiple of half-wavelengths.
+  L = n * (lambda / 2), where n = 1, 2, 3...
+  Allowed frequencies: f_n = n * (v / 2L).
+  These discrete frequencies are called harmonics or overtones.
+- Open/Closed Pipes: Similar rules apply to sound waves in tubes, depending on whether the ends are open (pressure node) or closed (pressure antinode).

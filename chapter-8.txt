@@ -1,0 +1,62 @@
+CHAPTER 8 -- NUCLEAR PHYSICS
+
+Nuclear physics studies the interactions and structure of atomic nuclei.
+
+8.1 NUCLEAR FORCES
+
+The Strong Interaction (Strong Force) binds quarks together to form protons and neutrons, and binds protons and neutrons together to form nuclei.
+- Range: Very short (~1-3 fm).
+- Strength: Roughly 137 times stronger than electromagnetism.
+- It overcomes the Coulomb repulsion between protons.
+
+The Weak Interaction is responsible for radioactive decay (like beta decay) and neutrino interactions.
+- Range: Extremely short (sub-nuclear).
+
+8.2 STABLE VS UNSTABLE NUCLEI
+
+Plotting Neutron number (N) vs Proton number (Z) creates the "Valley of Stability."
+- For light nuclei (Z < 20), stable nuclei have N approx Z.
+- For heavier nuclei, more neutrons are needed to screen the proton repulsion, so N > Z.
+- Nuclei outside this stability band are unstable and decay to reach a more stable configuration.
+
+8.3 RADIOACTIVE DECAY
+
+Unstable nuclei spontaneously transform into different nuclei, emitting radiation in the process. This is a random, probabilistic process.
+
+Law of Radioactive Decay:
+The rate of decay is proportional to the number of radioactive nuclei present.
+dN / dt = -lambda * N
+Solution:
+N(t) = N_0 * e^(-lambda * t)
+where lambda is the decay constant.
+
+8.4 HALF-LIFE
+
+The half-life (t_1/2) is the time required for half of a sample of radioactive nuclei to decay.
+t_1/2 = ln(2) / lambda approx 0.693 / lambda
+After n half-lives, the remaining fraction of the original sample is (1/2)^n.
+
+8.5 DECAY MODES
+
+Alpha Decay (alpha):
+- Emission of a Helium-4 nucleus (2 protons, 2 neutrons).
+- Occurs in heavy nuclei (e.g., Uranium).
+- Parent nucleus: Z reduces by 2, A reduces by 4.
+
+Beta Decay (beta-):
+- A neutron converts into a proton, an electron, and an antineutrino.
+- n -> p + e- + anti-nu_e
+- Z increases by 1, A remains constant.
+
+Beta Plus Decay (beta+):
+- A proton converts into a neutron, a positron, and a neutrino.
+- p -> n + e+ + nu_e
+- Z decreases by 1, A remains constant.
+
+Gamma Decay (gamma):
+- An excited nucleus transitions to a lower energy state by emitting a high-energy photon (gamma ray).
+- Neither Z nor A changes. It often follows alpha or beta decay.
+
+Electron Capture:
+- An inner shell electron is captured by the nucleus, combining with a proton to form a neutron and a neutrino.
+- p + e- -> n + nu_e

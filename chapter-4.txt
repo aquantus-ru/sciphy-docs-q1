@@ -1,0 +1,58 @@
+CHAPTER 4 -- ENERGY, WORK, AND CONSERVATION
+
+Energy is a scalar quantity associated with the state of a system. It is one of the most abstract yet useful concepts in physics because of the principle of conservation.
+
+4.1 KINETIC AND POTENTIAL ENERGY
+
+Kinetic Energy (K):
+The energy possessed by an object due to its motion.
+K = 0.5 * m * v^2
+- K is always non-negative.
+- Work is required to accelerate a mass from rest to velocity v, and this work is stored as kinetic energy.
+
+Potential Energy (U):
+The energy stored in a system due to the configuration or position of its parts. It is associated with conservative forces (like gravity or spring forces).
+- Gravitational Potential Energy (near Earth): U_g = m * g * h (where h is height relative to a reference).
+- Elastic Potential Energy (spring): U_s = 0.5 * k * x^2 (where k is the spring constant and x is displacement from equilibrium).
+
+4.2 WORK
+
+Work (W) is the energy transferred to or from an object via the application of force along a displacement.
+W = Integral( F dot dx )
+For a constant force F applied over a displacement d:
+W = F * d * cos(theta)
+where theta is the angle between the force vector and the displacement vector.
+
+- Work is positive if force aids motion.
+- Work is negative if force opposes motion (e.g., friction).
+- Work is zero if force is perpendicular to motion (e.g., centripetal force).
+
+Work-Energy Theorem:
+The net work done on an object equals the change in its kinetic energy.
+W_net = Delta_K = K_final - K_initial
+
+4.3 POWER
+
+Power (P) is the rate at which work is done or energy is transferred.
+P = dW / dt
+For a constant force moving an object at velocity v:
+P = F dot v
+The SI unit of power is the Watt (W). 1 W = 1 J/s.
+
+4.4 CONSERVATION LAWS
+
+Conservation of Energy:
+The total energy of an isolated system remains constant; it is said to be conserved. Energy can neither be created nor destroyed, only transformed from one form to another.
+Delta_E_system = 0
+
+Mechanical Energy Conservation:
+If only conservative forces (gravity, spring force) do work within a system, the total mechanical energy (E_mech = K + U) is conserved.
+K_i + U_i = K_f + U_f
+
+If non-conservative forces (like friction) are present, mechanical energy is converted into thermal energy (internal energy).
+W_nc = Delta_E_mech = (K_f + U_f) - (K_i + U_i)
+where W_nc is the work done by non-conservative forces.
+
+Other Conservation Laws:
+- Conservation of Linear Momentum: If the net external force on a system is zero, the total linear momentum is conserved. (Crucial for collisions).
+- Conservation of Angular Momentum: If the net external torque on a system is zero, the total angular momentum is conserved. (Crucial for rotation).

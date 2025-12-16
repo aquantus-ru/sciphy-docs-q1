@@ -1,0 +1,15 @@
+Chapter 1: Foundations of Physical Description
+Chapter 2: Classical Motion (Kinematics)
+Chapter 3: Forces and Classical Dynamics
+Chapter 4: Energy, Work, and Conservation
+Chapter 5: Oscillations and Waves
+Chapter 6: Classical Electromagnetism
+Chapter 7: Matter, Atoms, and Isotopes
+Chapter 8: Nuclear Physics
+Chapter 9: Nuclear Spin and Angular Momentum
+Chapter 10: Quantum Mechanics Fundamentals
+Chapter 11: Magnetic Resonance (NMR / MR)
+Chapter 12: Water, Resonance, and Dielectric Response
+Chapter 13: Scattering and Interaction Types
+Chapter 14: Statistical & Thermal Physics
+Chapter 15: Measurement, Signal, and Noise
